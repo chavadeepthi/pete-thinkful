@@ -1,10 +1,21 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+
+h1 {
+  
+  margin-left: 150px;
+  
+}
+
 body {
+  padding-top: 10px;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+  padding: 400px;
+  /* text-align: center; */
+  background-color: #eae2b7;
+  
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -39,11 +50,12 @@ img {
   height: auto;
 }
 
+/* Setting boreder for circular image  */
 hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
+/* Setting css to display image as circle */
 
 .image-circle {
   border: 2px solid #003049;
@@ -56,6 +68,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin: 40px auto;
+  margin-left: 90px;
 }
 
 a {
@@ -66,10 +79,17 @@ a {
   font-family: Quattrocento, sans-serif;
 }
 
+/* Setting color for anchor hover */
 a:hover {
   color: #f77f00;
 }
 
+li
+{
+  text-align: left;
+}
+
 footer p{
   text-align: center;
+  align-content: center;
 }
